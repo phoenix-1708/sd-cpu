@@ -17,7 +17,7 @@ task:
        - sudo apt-get install -y jq
        - git clone https://github.com/akhilnarang/scripts bscripts && cd bscripts && bash setup/android_build_env.sh && cd ..
        - git lfs install
-       - git clone https://huggingface.co/spaces/phoenix-1708/SD_CPU
+       - git clone https://huggingface.co/phoenix-1708/SD_CPU
        - cd SD_CPU
        - unzip sd.webui.cpu.zip
        - cd sd.webui.cpu
