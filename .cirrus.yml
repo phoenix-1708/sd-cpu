@@ -26,3 +26,5 @@ task:
        - cd sd.webui.cpu
        - pip install "fastapi[all]"
        - bash run.sh
+
+
