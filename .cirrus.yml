@@ -2,7 +2,7 @@ task:
   name: "sd cpu"
   timeout_in: 90m  
   container:
-      image: ubuntu:latest
+      image: phoenix1708/aosp:latest  #ubuntu:latest
       cpu: 8
       memory: 32G
         
@@ -10,7 +10,7 @@ task:
        - DEBIAN_FRONTEND=noninteractive
        - sudo apt-get update -y
        - sudo apt-get upgrade -y
-       - sudo apt-get install -y git
+       #- sudo apt-get install -y git
        - git config --global user.name "harik1708"
        - git config --global user.email "hariv1708@gmail.com"
        - git config --global color.ui true
